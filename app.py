@@ -5,7 +5,8 @@ import numpy as np
 from PIL import Image
 
 # Charger le modèle
-model = tf.keras.models.load_model("model_cats_dogs.h5")
+model = tf.keras.models.load_model("c:\Users\PC\Downloads\PROJET DEEPL\cats_vs_dogs_model.keras")
+
 
 # Fonction pour faire une prédiction
 def predict_image(img):
